@@ -1,0 +1,65 @@
+.tableProducts {
+    padding: 20px;
+    background-color: #2A2A2A;
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.table img{
+    height: 60px;
+    border-radius: 10%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #3A3A3A;
+    text-align: left;
+}
+
+.table th {
+    background-color: #3A3A3A;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #3A3A3A;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #2A2A2A;
+}
+
+.table td {
+    color: #ffffff;
+}
+
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.table button {
+    background-color: #ff4b4b;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.table button:hover {
+    background-color: #ff7b7b;
+}

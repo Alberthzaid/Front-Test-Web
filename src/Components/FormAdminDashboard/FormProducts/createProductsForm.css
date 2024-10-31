@@ -1,0 +1,85 @@
+/* Estilos para formularios */
+.form-container {
+    position: relative;
+    width: 400px; /* Puedes ajustar el ancho según sea necesario */
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.form-container h2 {
+    margin: 0 0 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-container .input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-container .input-group input,
+.form-container .input-group textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.form-container .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.form-container .input-group input:focus ~ label,
+.form-container .input-group input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.form-container button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.form-container button:hover {
+    background: #fff;
+    color: #272727;
+    border-radius: 5px;
+}
+
+.form-container p {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+}

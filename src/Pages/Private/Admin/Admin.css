@@ -1,0 +1,43 @@
+/* Estilos para la lista de enlaces */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; /* Asegura que los enlaces estén en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.nav-list li {
+    margin: 10px 0; /* Espacio entre los elementos de la lista */
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.8); /* Fondo del enlace */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background 0.3s, color 0.3s; /* Transición suave para hover */
+}
+
+.nav-list a:hover {
+    background: #fff; /* Cambia el fondo al pasar el mouse */
+    color: #272727; /* Cambia el color del texto al pasar el mouse */
+}
+
+.toggle-table-button{
+    padding: 10px 20px;
+    border: none;
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.8); /* Fondo del enlace */
+    border-radius: 8px; /* Esquinas redondeadas */
+    transition: background 0.3s, color 0.3s; /* Transición suave para hover */
+}
+
+.toggle-table-button:hover{
+    background: #fff; /* Cambia el fondo al pasar el mouse */
+    color: #272727; 
+}

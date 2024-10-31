@@ -1,0 +1,15 @@
+.Container_Products{
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.titleProducts-title{
+    text-align: center;
+    font-size: 30px;
+}
